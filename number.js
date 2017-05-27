@@ -1,1 +1,1 @@
-for(var number=Number(prompt("helo")),output=[],sNumber=number.toString(),temp=0,i=0,len=sNumber.length;i<len;i+=1)output.push(+sNumber.charAt(i));for(var j=0;j<output.length;j++)temp+=Math.pow(Number(output[j]),2),console.log(temp);document.write("<h1>resutl="+temp+"</h1>");
+for(var number=Number(prompt("helo")),output=[],sNumber=number.toString(),temp=0,i=0,len=sNumber.length;i<len;i+=1)output.push(sNumber.charAt(i));for(var j=0;j<output.length;j++)temp+=Math.pow(Number(output[j]),2),console.log(temp);document.write("<h1>resutl="+temp+"</h1>");
